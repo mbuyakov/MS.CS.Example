@@ -1,0 +1,14 @@
+queue: [{
+        "qname": "TEST.CS.EXAMPLE.APP",
+        "user": "testcs",
+        "userpass": "testcs",
+        "consumer": "testcs,amq",
+        "producer": "testcs,amq"
+    },
+    {
+        "qname": "TEST.CS.EXAMPLE.STATUS",
+        "user": "testcs",
+        "userpass": "testcs",
+        "consumer": "amq",
+        "producer": "testcs,amq"
+    }]
